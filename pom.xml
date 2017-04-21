@@ -4,6 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
+      <artifactId>petclinic</artifactId>
+  <version>1.0</version>
+    <packaging>war</packaging>
   <artifactId>spring-petclinic</artifactId>
   <version>1.5.1</version>
 
@@ -230,7 +233,7 @@
  <configuration>
  <server>tomcat-development-server</server>
  <url>http://localhost:6789/manager/text</url>
- <warFile>target\petclinic.war</warFile>
+ <warFile>target\petclinic-1.0.war</warFile>
  <path>/petclinic</path>
  </configuration>
  </plugin>
