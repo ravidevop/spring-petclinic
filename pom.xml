@@ -7,7 +7,6 @@
       <artifactId>petclinic</artifactId>
   <version>1.0</version>
     <packaging>war</packaging>
-  <version>1.5.1</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
