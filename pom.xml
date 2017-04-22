@@ -228,10 +228,13 @@
 	<groupId>org.apache.tomcat.maven</groupId>
 	<artifactId>tomcat7-maven-plugin</artifactId>
 	<version>2.2</version>
-	<configuration>
+	<configuration>		
+        <server>TomcatServer</server>
 		<url>http://localhost:6789/manager/text</url>
-		<server>TomcatServer</server>
 		<path>/petclinic</path>
+        <username>tomcat</username>
+        <password>tomcat</password>
+        
 	</configuration>
 </plugin>
     </plugins>
